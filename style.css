@@ -1,0 +1,23 @@
+.car1{
+	position: absolute;
+	top: 200px;
+	right: -200px;
+	width: 200px;
+	animation-name: car1;
+	animation-duration: 5s;
+}
+.car2{	
+	position: absolute;
+	left: -300px;
+	width: 200px;
+	animation-name: car2;
+	animation-duration: 5s;
+}
+@keyframes car2{
+	0%{left: -300px;}
+	100%{left: 1400px;}
+}
+@keyframes car1{
+	0%{right: -300px;}
+	100%{right: 1400px;}
+}
